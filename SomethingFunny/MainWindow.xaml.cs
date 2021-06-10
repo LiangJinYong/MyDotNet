@@ -24,5 +24,10 @@ namespace SomethingFunny
         {
             InitializeComponent();
         }
+
+        private void clickMe_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Hello");
+        }
     }
 }

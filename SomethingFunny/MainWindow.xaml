@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:SomethingFunny"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+    <Grid RenderTransformOrigin="0.491,0.641">
+        <Button x:Name="clickMe" Content="Hit Me" Width="60" Height="50" Click="clickMe_Click"></Button>
+        <Slider HorizontalAlignment="Left" Margin="67,127,0,0" VerticalAlignment="Top" Width="654" Minimum="1" Maximum="100" Value="50"/>
     </Grid>
 </Window>
